@@ -4,10 +4,9 @@ By [Plataformatec](http://plataformatec.com.br/).
 
 **SimpleForm** is an easy way to integrate forms with style and all the components on your app.  
 
-Basically it's a stack of components that are invoked to create a complete html input for you, with some basic componnets which by default contains; labels , hints, errors and the input itself.
+Basically it's a stack of components that are invoked to create a complete html input for you, which by default contains; labels , hints, errors and the input itself.
 
-It does not aim to create a lot of different logic from the default Rails form helpers, as they do a great job by themselves. Instead, **Simple Form** acts as a DSL and just
-maps your input type (retrieved from the column definition in the database) to a specific helper method.
+**Simple Form** maps your input type (retrieved from the column definition in the database) to a specific helper method.
 
 ##Installing the gem : 
 On your app, go to your gem file and type the following : 
