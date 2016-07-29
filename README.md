@@ -30,7 +30,7 @@ rails generate simple_form:install
 Finally to start using Simple Form you just have to use the helper it provides:
 
 ```erb
-<%= simple_form_for @user do |f| %>
+simple_form_for
 ```
 Full example 
 
