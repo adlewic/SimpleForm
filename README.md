@@ -2,7 +2,6 @@
 
 By [Plataformatec](http://plataformatec.com.br/).
 
-[Official Documentation](http://www.rubydoc.info/github/plataformatec/simple_form/master/frames)
 
 **SimpleForm** is an easy way to integrate forms with style and all the components on your app.  
 
