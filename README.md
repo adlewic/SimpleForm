@@ -1,9 +1,9 @@
 #Simple Form Gem   ♥
 
+
 By [Plataformatec](http://plataformatec.com.br/).
 
-
-**SimpleForm** is an easy way to integrate forms with style and all the components on your app.  
+**SimpleForm** is an easy way to integrate forms with style and all the components on your app, using a specific helper method. 
 
 Basically it's a stack of components that are invoked to create a complete html input for you, which by default contains; labels , hints, errors and the input itself.
 
@@ -25,4 +25,14 @@ Run the generator also in your terminal:
 
 ```console
 rails generate simple_form:install
+```
+
+To start using Simple Form you just have to use the helper it provides:
+
+```ruby
+<%= simple_form_for @user do |f| %>
+  <%= f.input :username %>
+  <%= f.input :password %>
+  <%= f.button :submit %>
+<% end %>
 ```
