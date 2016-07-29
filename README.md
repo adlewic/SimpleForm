@@ -26,6 +26,7 @@ Run the generator also in your terminal:
 ```console
 rails generate simple_form:install
 ```
+##Done !
 
 Finally to start using Simple Form you just have to use the helper it provides:
 
