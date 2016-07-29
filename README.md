@@ -27,7 +27,7 @@ Run the generator also in your terminal:
 rails generate simple_form:install
 ```
 
-To start using Simple Form you just have to use the helper it provides:
+Finallu to start using Simple Form you just have to use the helper it provides:
 
 ```ruby
 <%= simple_form_for @user do |f| %>
