@@ -27,12 +27,8 @@ Run the generator also in your terminal:
 rails generate simple_form:install
 ```
 
-Finallu to start using Simple Form you just have to use the helper it provides:
+Finally to start using Simple Form you just have to use the helper it provides:
 
-```ruby
+```erb
 <%= simple_form_for @user do |f| %>
-  <%= f.input :username %>
-  <%= f.input :password %>
-  <%= f.button :submit %>
-<% end %>
 ```
