@@ -34,6 +34,7 @@ Finally to start using Simple Form you just have to use the helper it provides:
 ```
 Full example 
 
+```erb
 <%= simple_form_for @user do |f| %>
   <%= f.input :username %>
   <%= f.input :password %>
