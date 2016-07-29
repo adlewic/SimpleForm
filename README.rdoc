@@ -1,27 +1,24 @@
 == SimpleForm Gem 
+SimpleForm is an easy way to integrate forms in the best practical way. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Installing the gem : 
 
-Things you may want to cover:
+```ruby
+gem 'simple_form'
+```
 
-* Ruby version
+Run the following command to install it:
 
-* System dependencies
+```console
+bundle install
+```
 
-* Configuration
+Run the generator:
 
-* Database creation
+```console
+rails generate simple_form:install
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
