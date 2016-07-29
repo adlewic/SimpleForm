@@ -1,11 +1,11 @@
-#Simple Form
+#Simple Form Gem 
 
 By [Plataformatec](http://plataformatec.com.br/).
 
 SimpleForm is an easy way to integrate forms with style and all the components on rails app. 
 
 ##Installing the gem : 
-Go to your gem file and type the following : 
+On your app, go to your gem file and type the following : 
 ```ruby
 gem 'simple_form'
 ```
